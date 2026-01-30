@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+         /* RESET */
+    @media(min-width: 600px){
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #a8e063, #56ab2f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            min-height: 90vh;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: auto 1fr auto;
+            gap: 15px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            grid-column: 1 / 3;
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .sidebar {
+            padding: 20px;
+            background-color: #e8f5e9;
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #f1f8e9;
+            border-radius: 10px;
+        }
+
+        .footer {
+            grid-column: 1 / 3;
+            text-align: center;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar li {
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #2e7d32;
+        }
+
+        .content h2 {
+            margin-bottom: 10px;
+            color: #2e7d32;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .content img {
+            width: 150px;
+            height: auto;
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .header, .footer {
+                grid-column: 1 / 2;
+            }
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>About Me</h1>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li>Name: Darwin Libertino</li>
+                <li>Age: 22</li>
+                <li>Address: Cauayan, Neg. Occ.</li>
+                <li>Email: darsdars@gmail.com</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>My Short Background</h2>
+            <p>
+                I am Darwin Libertino, the youngest child of my parents.
+                I love playing music, dancing, and playing online games.
+                Currently, I am studying at CPSU MAIN and I dream of finishing
+                my studies to have a better job in the future.
+            </p>
+
+            <img src="darwin.jpg" alt="Darwin">
+            <img src="darwin.jpg" alt="Darwin">
+            <img src="darwin.jpg" alt="Darwin">
+        </div>
+
+        <div class="footer">
+            © 2026 | About Me Page
+        </div>
+
+    </div>
+</body>
+</html>
+dars.html
+Displaying dars.html.
